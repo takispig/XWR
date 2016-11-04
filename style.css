@@ -101,9 +101,12 @@ body {
   .navbar li a, .navbar .navbar-brand {
       color: #d5d5d5 !important;
   }
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #29292c !important;
-    background-color: #fff !important;
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -159,4 +162,12 @@ body {
         opacity: 1;
         transform: translateY(0);
     } 
+}
+img.opacity {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img.opacity:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }

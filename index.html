@@ -6,11 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="float-panel.js"></script>
   <!-- Facebook Custom Thumbnail -->
   <meta property="og:image" content="http://i.imgur.com/Q52Z1Wk.png"/>
@@ -66,7 +66,7 @@
         <img src="http://i.imgur.com/ffmbQ2m.png" style="max-height:600px; max-width: 1920px;">
         <div class="carousel-caption">
           <h3>Freedom</h3>
-          <p>Poseidi Camping 2016.</p>
+          <p>Poseidi Camping 2017.</p>
         </div>
       </div>
       <div class="item">
@@ -211,19 +211,15 @@
   <div class="container text-center">
     <h3>WE SUPPORT</h3>
     <div class="row slideanim">
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <a href="https://www.facebook.com/%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1-%CE%9D%CE%B5%CE%BF%CE%BB%CE%B1%CE%AF%CE%B1%CF%82-%CE%94%CE%AF%CE%B2%CF%81%CE%B7%CF%82-%CE%A6%CE%B8%CE%B9%CF%89%CF%84%CE%B9%CE%B4%CE%B1%CF%82-1423907190969798" target="_blank"><img class="opacity" src="http://i.imgur.com/0PLTq5L.png" height="202"></a>
         <p class="text-center"><strong>Τμήμα Νεολαίας Δίβρης</strong></p>
       </div>
-      <div class="col-sm-3">
-        <a href="https://www.facebook.com/prplgng/" target="_blank"><img class="opacity" src="http://i.imgur.com/q6bcYhX.png" height="202"></a>
-        <p class="text-center"><strong>prplgñg</strong></p>
-      </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <a href="https://www.facebook.com/FMforLive/" target="_blank"><img class="opacity" src="http://i.imgur.com/P8IXnTU.png" height="202"></a>
         <p class="text-center"><strong>FMforLive.gr</strong></p>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <a href="https://www.facebook.com/golbemusic/" target="_blank"><img class="opacity" src="http://i.imgur.com/bzfYRKk.png" height="202"></a>
         <p class="text-center"><strong>Golbe Music</strong></p>
       </div>
@@ -306,33 +302,20 @@
   </div>
 </div>
 
-<div id="googleMap"></div>
-
 <!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<div id="googleMap"></div>
 <script>
+function myMap() {
 var myCenter = new google.maps.LatLng(40.6401, 22.9444);
-
-function initialize() {
-var mapProp = {
-center:myCenter,
-zoom:12,
-scrollwheel:false,
-draggable:false,
-mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-position:myCenter,
-});
-
+var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMjCCwdzUlNhT856MJjJ3NGmkbFMp52js&callback=myMap"></script>
 
 <!-- Footer -->
 <footer class="text-center">
@@ -340,7 +323,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <h3 style="color:white;">Xortopetseta Web Radio</h3>
-  <h5>All rights reserved © 2016</h5>
+  <h5>All rights reserved © 2014-2017</h5>
 </footer>
 
 <script>

@@ -1,2 +1,1 @@
 # XWR
-Xortopetseta Web Radio 

@@ -112,16 +112,6 @@ body {
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
-  .open .dropdown-toggle {
-      color: #fff;
-      background-color: #555 !important;
-  }
-  .dropdown-menu li a {
-      color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
-      background-color: red !important;
-  }
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
@@ -134,26 +124,6 @@ body {
       color: #777;
       text-decoration: none;
   }
-  .form-control {
-      border-radius: 0;
-  }
-  textarea {
-      resize: none;
-  }
-  .slideanim {
-    visibility:hidden;
-    visibility:visible\9;/*For old IE browsers IE6-8 */
-}
-.slideanim.slide {                  
-    visibility: visible;                  
-    animation: slide 1s;
-}
-.slideanim::after {
-    /* useful when its child elements are float:left; */
-    content: "";
-    display: table;
-    clear: both;
-}
 @keyframes slide {
     0% {
         opacity: 0;

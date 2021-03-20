@@ -127,8 +127,9 @@ footer a:hover {
 #player {
     position: fixed;
     height: 170px;
-    bottom: -1%;
+    bottom: -0%; /* OPTIONAL: set -1% to eliminate the gap under the player */
     width: 100%;
+    background-color: black; /* set dark color to cover the gap under the player */
 }
 @keyframes slide {
     0% {

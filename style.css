@@ -127,8 +127,8 @@ footer a:hover {
 #player {
     position: fixed;
     height: 170px;
-    bottom: -2%;
-    width: 101%;
+    bottom: -1%;
+    width: 100%;
 }
 @keyframes slide {
     0% {

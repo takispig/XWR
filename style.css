@@ -1,7 +1,13 @@
 body {
-      font: 400 15px/1.8 Lato, sans-serif;
-      color: #777;
-      padding-top: 50px;
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+    padding-top: 50px;
+    -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar in Firefox */
+}
+/* Hide scrollbar in Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 h3, h4 {
     margin: 10px 0 30px 0;

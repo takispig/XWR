@@ -66,6 +66,7 @@ h3, h4 {
     color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
+    border-radius: 5px;
 }
 .btn:hover, .btn:focus {
     border: 1px solid #333;
@@ -79,7 +80,7 @@ h3, h4 {
     font-size: 30px;
 }
 .modal-header, .modal-body {
-    padding: 40px 50px;
+    padding: 30px 70px;
 }
 .nav-tabs li a {
     color: #777;
@@ -131,6 +132,9 @@ footer a:hover {
     bottom: -0%; /* OPTIONAL: set -1% to eliminate the gap under the player */
     width: 100%;
     background-color: black; /* set dark color to cover the gap under the player */
+}
+#ylist:hover {
+    opacity: 0.7;
 }
 @keyframes slide {
     0% {

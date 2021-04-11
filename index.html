@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Facebook Custom Thumbnail -->
@@ -139,7 +140,7 @@
 			<!-- END of NEW CONTENT -->
 			<div class="row">
 				<!-- BEGIN CBOX - www.cbox.ws - v4.3 -->
-				<div id="cboxdiv" style="position: relative; margin: 0 auto; width: 100%; font-size: 0; line-height: 0; max-width: 900px;">
+				<div id="cboxdiv" style="position: relative; margin: 0 auto; width: 100%; font-size: 0; line-height: 0; max-width: 500px;">
 					<div style="border-radius: 5px 5px 0 0; position: relative; height: 250px; overflow: auto; overflow-y: auto; -webkit-overflow-scrolling: touch; border: 0px solid;"><iframe src="https://www2.cbox.ws/box/?boxid=2332812&boxtag=t5wldr&sec=main" marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%" scrolling="auto" allowtransparency="yes" name="cboxmain2-2332812" id="cboxmain2-2332812"></iframe></div>
 					<div style="border-radius: 0 0 5px 5px; position: relative; height: 65px; overflow: hidden; border: 0px solid; border-top: 0px;"><iframe src="https://www2.cbox.ws/box/?boxid=2332812&boxtag=t5wldr&sec=form" allow="autoplay" marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%" scrolling="no" allowtransparency="yes" name="cboxform2-2332812" id="cboxform2-2332812"></iframe></div>
 				</div>
@@ -162,7 +163,7 @@
 								Άραξε μπρο, δεν θέλουμε τίποτα. Για τη κίνησή σου και μόνο πάρε τη youtube λίστα
 								με την υπογραφή του <b>DJ Schoop</b> <span><img src="img/schoop.jpg" alt="DJ Schoop" style="height: 40px; border-radius: 50%;"></span> 
 								για αραγματικές, ή όχι, όταν δεν έχουμε εκπό. <br><br>
-								<a href="https://www.youtube.com/playlist?list=PLknFYBdDe0JC8MyxwM2DwhJjz-Cf-r5wH" target="_blank" id="ylist"><img src="img/youtube-brands.svg" style="height: 60px;"></a>
+								<a href='#' onclick='pickRandPlaylist();' id="ylist"><img src="img/youtube-brands.svg" style="height: 60px;"></a>
 							</p>
 						</div>
 					</div>
@@ -370,10 +371,10 @@
 		<a id='cstrFreePlayerBL1' href='//www.caster.fm/'>Free Shoutcast Hosting</a><a id='cstrFreePlayerBL2' href='//www.caster.fm/'>Radio Stream Hosting</a>
 		<div id='cstrFreePlayerDiv'></div>
 	</div>
-
+	
 	<!-- Script to make the whole experience a bit better -->
 	<script>
-		$(document).ready(function(){
+	$(document).ready(function(){
 		// Initialize Tooltip
 		$('[data-toggle="tooltip"]').tooltip();
 		// Add smooth scrolling to all links in navbar + footer link
@@ -394,8 +395,8 @@
 			});
 			} // End if
 		});
-		})
+	})
 	</script>
-
+	
 </body>
 </html>
